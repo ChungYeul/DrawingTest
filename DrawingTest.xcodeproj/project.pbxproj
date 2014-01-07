@@ -21,6 +21,7 @@
 		F81D5573187BEC6A0036AFA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81D5555187BEC6A0036AFA8 /* UIKit.framework */; };
 		F81D557B187BEC6A0036AFA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F81D5579187BEC6A0036AFA8 /* InfoPlist.strings */; };
 		F81D557D187BEC6A0036AFA8 /* DrawingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D557C187BEC6A0036AFA8 /* DrawingTestTests.m */; };
+		F81D5588187BEE8A0036AFA8 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D5587187BEE8A0036AFA8 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F81D5578187BEC6A0036AFA8 /* DrawingTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingTestTests-Info.plist"; sourceTree = "<group>"; };
 		F81D557A187BEC6A0036AFA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F81D557C187BEC6A0036AFA8 /* DrawingTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingTestTests.m; sourceTree = "<group>"; };
+		F81D5586187BEE8A0036AFA8 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		F81D5587187BEE8A0036AFA8 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		F81D5557187BEC6A0036AFA8 /* DrawingTest */ = {
 			isa = PBXGroup;
 			children = (
+				F81D5586187BEE8A0036AFA8 /* DrawingView.h */,
+				F81D5587187BEE8A0036AFA8 /* DrawingView.m */,
 				F81D5560187BEC6A0036AFA8 /* AppDelegate.h */,
 				F81D5561187BEC6A0036AFA8 /* AppDelegate.m */,
 				F81D5563187BEC6A0036AFA8 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				F81D5568187BEC6A0036AFA8 /* ViewController.m in Sources */,
 				F81D5562187BEC6A0036AFA8 /* AppDelegate.m in Sources */,
 				F81D555E187BEC6A0036AFA8 /* main.m in Sources */,
+				F81D5588187BEE8A0036AFA8 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
